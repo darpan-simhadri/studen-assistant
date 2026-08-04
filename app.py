@@ -33,4 +33,4 @@ def study_assistant(question,persona):
     title="Study Assistant",
     description="Ask a question and get an answer from your AI study assistant with a chosen personality."
 )
-demo.launch(server_name="0.0.0.0",server_port=int(os.environ_get("PORT",7860)))
+demo.launch(server_name="0.0.0.0",server_port=int(os.environ.get("PORT",7860)))
